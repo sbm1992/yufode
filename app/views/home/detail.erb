@@ -1,0 +1,16 @@
+<div class="jumbotron">
+  <img src="<%= @reply.img %>" width="100%">
+  <h1><%= @reply.title %></h1>
+  <p class="lead"><%= @reply.comment %></p>
+
+   <%= form_tag "/home/replys", method: "POST" do%>
+ <input type="text" name="tv_id" value="<%= @reply.id %>">
+    <br>
+    <input type="text" class="form-control" name="msg" placeholder="별점 체크 후 평가를 남겨주세요">
+    <br>
+    <button class="btn btn-success" href="#" role="button">평가하기</button>
+  <% end %>
+</div>
+<% @reply.connects.each do |c|%>
+    <%= c.dmsg%>
+<% end %>
