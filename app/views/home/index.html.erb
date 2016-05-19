@@ -1,26 +1,9 @@
 
 
 <body>
-
-    
-    <div class="container">
-          <!-- Example row of columns -->
-          <div class="row marketing">
-                  <% @food_all.each do |r| %>
-            <div class="col-lg-4">
-              <h2><%= r.title %></h2>
-              <img src="<%= r.img %>" class="img-thumbnail" width="500">
-             
-              <p><%= r.comment %></p>
-             <p><a class="btn btn-sm btn-default" href="/home/detail/<%= r.id %>" role="button">자세히 보기</a></p>
-              
-            </div>
-            
-          <% end %>
-          
-          </div>
-    </div>  
+  <div class="container">
+  <h1>실시간 강의 평가</h1>    
+  </div>  
     
     
-
 </body>
