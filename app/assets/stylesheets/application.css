@@ -21,10 +21,10 @@
 }
 
 #photos img {
-  width: 30%;
+  width: 48%;
   float: left;
   display: block;
-  margin: 2px;
+  margin: 5.5px;
 }
 
 ul {
@@ -77,3 +77,13 @@ ul {
 	opacity: .5;
 }
 /* pro css hover 효과 끝 */
+
+.wrapper .text {
+position: absolute;
+
+visibility:hidden;
+}
+
+.wrapper:hover .text {
+visibility:visible;
+}
