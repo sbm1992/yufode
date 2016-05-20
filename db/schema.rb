@@ -16,6 +16,7 @@ ActiveRecord::Schema.define(version: 20160511153509) do
   create_table "connects", force: :cascade do |t|
     t.text     "dmsg"
     t.integer  "food_id"
+    t.integer  "score"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

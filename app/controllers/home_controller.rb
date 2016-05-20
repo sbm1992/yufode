@@ -1,6 +1,10 @@
 class HomeController < ApplicationController
   def index
-    @food_all = Food.all
+
+  end
+  
+  def pro
+    @professor = Food.all
   end
   
   def upload
@@ -18,7 +22,7 @@ class HomeController < ApplicationController
   end
   
   def replys
-    Connect.create(dmsg: params[:msg], food_id: params[:tv_id])
+    Connect.create(dmsg: params[:msg], food_id: params[:tv_id].to_i, score: params[:rating].to_i)
     redirect_to '/'
   end
 end

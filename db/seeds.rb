@@ -6,7 +6,15 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-Food.create( title: "청춘상회", img: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRHbGIgyafyKzBMM-2SEn8SqG5LKe_o7ZQH7d2-O78LX649OwpN", comment: "영대 청춘상회 무한리필! 베로 카페 2층 인기많나봉 친구랑 일찍 저녁먹으러 갔는데 먹고 나올때 사람들 줄서있었음!")
-Food.create( title: "압9족", img: "http://tong.visitkorea.or.kr/upload/traveli/fileup/1385313255747.jpg", comment: "밥 비벼먹고싶은 양념 맛 그래서인지 셀프주먹밥을 먹는 사람들도 많았다 큰 족발에 위에 올려져있어서 양이 많아보였는데 두명이서 거의 다 먹었음 다이어트 안녕.")
-Food.create( title: "죠스철판", img: "http://mblogthumb1.phinf.naver.net/20150815_280/aaangle_14396496366607314M_JPEG/P20150813_212633896_1E0E1F7B-20AD-4D1C-81AD-0CF79281F6E5.JPG?type=w2", comment: "영대로 넘어가는데 배가 너무 고파서 눈앞에 보이는 영남대 불타는 죠스 철판에 다녀왔어요")
-Food.create( title: "88식당", img: "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s640x640/e35/sh0.08/11380815_990979217611442_163625794_n.jpg", comment: "멋쟁이 사자처럼 화이팅")
+Food.create( title: "곽종욱 교수님", img: "http://41.media.tumblr.com/0390d80d6c8cc4a7096033182a4bfe8a/tumblr_ndyvukSjNl1tubinno1_1280.jpg", comment: "영대 청춘상회 무한리필! 베로 카페 2층 인기많나봉 친구랑 일찍 저녁먹으러 갔는데 먹고 나올때 사람들 줄서있었음!")
+Food.create( title: "김종근 교수님", img: "http://40.media.tumblr.com/bbe414414f4fd1f0b4886c6fcf4193de/tumblr_ndyvd3qoiL1tubinno1_1280.jpg", comment: "밥 비벼먹고싶은 양념 맛 그래서인지 셀프주먹밥을 먹는 사람들도 많았다 큰 족발에 위에 올려져있어서 양이 많아보였는데 두명이서 거의 다 먹었음 다이어트 안녕.")
+Food.create( title: "박창현 교수님", img: "http://41.media.tumblr.com/3dde93f097de5e9db4f11b67729d6a2e/tumblr_na06dk1vWM1tubinno1_1280.jpg", comment: "영대로 넘어가는데 배가 너무 고파서 눈앞에 보이는 영남대 불타는 죠스 철판에 다녀왔어요")
+Food.create( title: "손영호 교수님", img: "http://40.media.tumblr.com/e67b59d43c79c496b6fa8f1dddabef47/tumblr_nbc7zx6vJl1tubinno1_1280.jpg", comment: "멋쟁이 사자처럼 화이팅")
+Food.create( title: "윤종희 교수님", img: "http://40.media.tumblr.com/d94d2a63ab509f403111c6e8ebfc22a4/tumblr_ndyfu61hzH1tubinno1_1280.jpg" , comment: "멋쟁이 사자처럼 화이팅")
+Food.create( title: "신동화 교수님", img: "http://40.media.tumblr.com/d7a014af6eaec53ccdc7a4171033f96d/tumblr_na06t4fnlI1tubinno1_1280.jpg" , comment: "멋쟁이 사자처럼 화이팅")
+Food.create( title: "안병철 교수님", img: "http://40.media.tumblr.com/7302cf024c924726c6ad99bb80b0be41/tumblr_nauccbKUCw1tubinno1_1280.jpg" , comment: "멋쟁이 사자처럼 화이팅")
+Food.create( title: "이기동 교수님", img: "http://41.media.tumblr.com/fddb3f2b0bdf390efd7ea87372e75fa5/tumblr_ndyg3pYbKW1tubinno1_1280.jpg" , comment: "멋쟁이 사자처럼 화이팅")
+Food.create( title: "황도삼 교수님", img: "http://41.media.tumblr.com/758a5cb9046fde53138ad0f55527ca25/tumblr_ndyfdoR6Wp1tubinno1_1280.jpg" , comment: "멋쟁이 사자처럼 화이팅")
+Food.create( title: "88식당", img: "http://41.media.tumblr.com/758a5cb9046fde53138ad0f55527ca25/tumblr_ndyfdoR6Wp1tubinno1_1280.jpg" , comment: "멋쟁이 사자처럼 화이팅")
+
+
