@@ -2,8 +2,30 @@
 
 <body>
   <div class="container">
-  <h1>실시간 강의 평가</h1>    
-  </div>  
+  <h1>실시간 강의 평가</h1><hr>
+  
+  
+  <!--실시간 댓글 출력-->
     
-    
+      <% @index.each do |i|%>
+        <% i.connects.each do |t|%>
+           <div class="row">
+            <div class="col-md-2">
+                <span  style="font-weight:bold;" ><%=i.title%></span>
+            </div>
+            <div class="col-md-8">
+               <p> <%= t.dmsg%> </p>
+            </div>
+            <div class="col-md-2">
+                <%= time_ago_in_words(t.created_at) %> ago
+            </div>
+          </div>
+          <hr>
+        <% end %>
+      <% end %>
+      
+            
+  
+
+   </div>   
 </body>

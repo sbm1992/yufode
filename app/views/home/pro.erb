@@ -1,3 +1,6 @@
+<!--교수별 페이지-->
+
+
 <div class = "container">
     <div id="photos">
       <ul id="photo-gallery">
@@ -9,8 +12,8 @@
                            <figure>
                                 <img src="<%= p.img %>" >                               
                             </figure>                   
-                              <h2 class="text">운영체제설계:<br><%= p.title %></h2>
                         </div>
+                        <h2 class="text"><%= p.title %></h2>
                         <span class="star-rating small">  
                             <% 1.upto(5) do |i|%>
                                 <% if i == p.avg.round(0) %>

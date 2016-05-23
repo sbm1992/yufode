@@ -15,6 +15,4 @@ Food.create( title: "신동화 교수님", img: "http://40.media.tumblr.com/d7a0
 Food.create( title: "안병철 교수님", img: "http://40.media.tumblr.com/7302cf024c924726c6ad99bb80b0be41/tumblr_nauccbKUCw1tubinno1_1280.jpg" , comment: "멋쟁이 사자처럼 화이팅")
 Food.create( title: "이기동 교수님", img: "http://41.media.tumblr.com/fddb3f2b0bdf390efd7ea87372e75fa5/tumblr_ndyg3pYbKW1tubinno1_1280.jpg" , comment: "멋쟁이 사자처럼 화이팅")
 Food.create( title: "황도삼 교수님", img: "http://41.media.tumblr.com/758a5cb9046fde53138ad0f55527ca25/tumblr_ndyfdoR6Wp1tubinno1_1280.jpg" , comment: "멋쟁이 사자처럼 화이팅")
-Food.create( title: "88식당", img: "http://41.media.tumblr.com/758a5cb9046fde53138ad0f55527ca25/tumblr_ndyfdoR6Wp1tubinno1_1280.jpg" , comment: "멋쟁이 사자처럼 화이팅")
-
 

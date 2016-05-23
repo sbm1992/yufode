@@ -1,6 +1,6 @@
 class HomeController < ApplicationController
   def index
-
+    @index=Food.all
   end
   
   def pro
